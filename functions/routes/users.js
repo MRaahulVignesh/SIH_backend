@@ -11,6 +11,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 const collection_name = "confirmedBids";
+const document_name = "transactions"
 
 // create
 router.post("/create", async function (req, res) {
